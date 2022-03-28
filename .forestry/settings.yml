@@ -15,7 +15,7 @@ sections:
 - type: directory
   path: blog
   label: blog
-  create: documents
+  create: all
   match: "*.md"
 upload_dir: static/img
 public_path: "/img"
