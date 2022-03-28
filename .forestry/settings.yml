@@ -6,6 +6,11 @@ webhook_url:
 sections:
 - type: directory
   path: docs/tutorial-basics
+  label: Demo
+  create: documents
+  match: "*.json"
+- type: directory
+  path: docs/tutorial-basics
   label: docs/
   create: documents
   match: "*.md"
